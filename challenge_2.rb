@@ -32,7 +32,7 @@ function_input = gets.chomp
     break
   elsif function_input.to_i > 5 or function_input.to_i < 0
     puts "dude, what are you doing..."
-    next #next mean move onto the next?
+    next #next mean move onto the next, same as continue in Javascript
   end
 
 puts "What is number 1?"
@@ -40,7 +40,7 @@ num_1 = gets.chomp
 puts "What is number 2?"
 num_2 = gets.chomp
 
-  if function_input == "1"
+ if function_input == "1"
     add = num_1.to_i + num_2.to_i
     puts "#{num_1} + #{num_2} equals #{add}"
 
